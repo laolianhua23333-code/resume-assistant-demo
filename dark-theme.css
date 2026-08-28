@@ -1,0 +1,87 @@
+/* 暗色未来感主题（与浅紫青主题同构，整体覆盖） */
+html, body {
+  background:
+    radial-gradient(1000px 500px at 15% -10%, rgba(99, 102, 241, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(34, 211, 238, 0.16), transparent 55%),
+    linear-gradient(180deg, #0a0f1e, #10172e);
+  color: #e8ecf5;
+}
+.header h1 { color: transparent; }
+.status { color: #34d399; background: rgba(52, 211, 153, 0.12); border-color: rgba(52, 211, 153, 0.35); }
+.status.off { color: #f87171; background: rgba(248, 113, 113, 0.12); border-color: rgba(248, 113, 113, 0.35); }
+.tabs button { border-color: rgba(255, 255, 255, 0.12); background: rgba(255, 255, 255, 0.055); color: #aab3c8; }
+.tabs button:hover { color: #fff; border-color: rgba(99, 102, 241, 0.55); }
+.tabs button.active { background: linear-gradient(135deg, #6366f1, #22d3ee); color: #fff; box-shadow: 0 6px 22px rgba(99, 102, 241, 0.45); }
+.content { background: rgba(255, 255, 255, 0.055); border-color: rgba(255, 255, 255, 0.12); box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35); }
+.content h2, .content h3, .editor-group summary, .rec-head b, .rec-main b, .job-main, .td-company, .preview-bar b, .chat-panel-head b, .session-bar h2 { color: #fff; }
+.content li, .advice-section p, .job-desc, .jd-text, .rec-meta, .chat-msg.assistant { color: #aab3c8; }
+.hint, .rec-reasons, .job-time { color: #7d879e; }
+.primary { background: linear-gradient(135deg, #6366f1, #22d3ee); box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4); }
+.link { border-color: rgba(99, 102, 241, 0.7); color: #a5b4fc; }
+.link:hover { background: rgba(99, 102, 241, 0.15); color: #c7d2fe; }
+.form-grid input, .form-grid textarea, .form-grid select, .exp-grid input, .exp-grid select, .exp-grid textarea,
+.job-filters select, .job-filters input, .job-search input, .rec-controls select, .module-add select, .wide-input, .honor-row input, .editor-toolbar select, .chat-input input, .share-link input {
+  border-color: rgba(255, 255, 255, 0.12); background: rgba(255, 255, 255, 0.07); color: #e8ecf5;
+}
+.form-grid label, .exp-grid label, .job-filters label, .share-toggle, .module-name, .mini-btn, .tool-btn, .editor-toolbar select, .chat-msg.typing { color: #aab3c8; }
+.exp-block, .role-card, .rec-item, .jobs li, .editor-group details, .editor-toolbar, .preview-bar, .chat-embed, .chat-panel, .module-list, .jobs-table-wrap { background: rgba(255, 255, 255, 0.045); border-color: rgba(255, 255, 255, 0.12); }
+.editor-group summary { background: rgba(255, 255, 255, 0.04); }
+.group-title { color: #22d3ee; }
+.role-card:hover { border-color: rgba(99, 102, 241, 0.6); }
+.role-card.active { border-color: #6366f1; background: linear-gradient(135deg, rgba(99,102,241,0.22), rgba(34,211,238,0.12)); box-shadow: 0 0 0 1px #6366f1; }
+.provider-status .ok { color: #34d399; background: rgba(52, 211, 153, 0.12); border-color: rgba(52, 211, 153, 0.3); }
+.provider-status .no { color: #7d879e; background: rgba(255, 255, 255, 0.05); }
+.upload-area { background: rgba(255, 255, 255, 0.04); border-color: rgba(148, 163, 184, 0.45); }
+.upload-ok { color: #34d399; }
+.upload-warn { color: #fbbf24; background: rgba(251, 191, 36, 0.1); }
+.advice, pre.advice { background: rgba(255, 255, 255, 0.045); border-color: rgba(255, 255, 255, 0.12); }
+.advice-section { border-color: rgba(255, 255, 255, 0.12); }
+.advice-section h4 { color: #93c5fd; }
+.error { color: #fecaca; background: rgba(248, 113, 113, 0.14); border-color: rgba(248, 113, 113, 0.35); }
+.chat-msg.user { background: linear-gradient(135deg, #6366f1, #22d3ee); }
+.chat-msg.assistant { background: rgba(255, 255, 255, 0.09); border-color: rgba(255, 255, 255, 0.12); color: #e8ecf5; }
+.chat-panel-head { background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(34,211,238,0.1)); }
+.editor-notice { background: rgba(99, 102, 241, 0.16); border-color: rgba(99, 102, 241, 0.4); color: #c7d2fe; }
+.mini-btn { background: rgba(255, 255, 255, 0.07); }
+.mini-btn.danger { color: #f87171; border-color: rgba(248, 113, 113, 0.4); }
+.preview-frame {
+  background:
+    linear-gradient(rgba(99, 102, 241, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 102, 241, 0.08) 1px, transparent 1px),
+    rgba(2, 6, 23, 0.65);
+  background-size: 24px 24px;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.resume-page { box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55); }
+.jobs-table th { background: rgba(255, 255, 255, 0.06); color: #aab3c8; border-color: rgba(255, 255, 255, 0.12); }
+.jobs-table td { border-color: rgba(255, 255, 255, 0.07); color: #aab3c8; }
+.jobs-table tbody tr:hover { background: rgba(99, 102, 241, 0.08); }
+.status-text, .rec-score, .jd-toggle, .job-url { color: #93c5fd; }
+.jd-toggle { background: rgba(99, 102, 241, 0.15); border-color: rgba(99, 102, 241, 0.5); }
+.rec-box { border-color: rgba(99, 102, 241, 0.45); background: linear-gradient(135deg, rgba(99,102,241,0.14), rgba(34,211,238,0.07)); }
+.rec-bar { background: rgba(255, 255, 255, 0.12); }
+.rec-bar-inner { background: linear-gradient(90deg, #60a5fa, #2563eb); }
+.rec-user-score, .score { color: #34d399; }
+.tag { background: rgba(99, 102, 241, 0.18); color: #c7d2fe; border-color: rgba(99, 102, 241, 0.35); }
+.module-row { border-color: rgba(255, 255, 255, 0.12); }
+.tool-btn:hover { color: #fff; border-color: rgba(99, 102, 241, 0.6); }
+.primary-tool { box-shadow: 0 5px 18px rgba(99, 102, 241, 0.4); }
+
+/* 修复：暗色主题下职业评估角色卡片文字可见性 */
+.role-card { color: #c7d2fe; }
+.role-card b { color: #ffffff; }
+.role-card span { color: #94a3b8; }
+.role-card.active b { color: #ffffff; }
+.role-card.active span { color: #c7d2fe; }
+
+/* 面试指导（暗色） */
+.iv-tabs button { border-color: rgba(255, 255, 255, 0.12); background: rgba(255, 255, 255, 0.055); color: #aab3c8; }
+.iv-tabs button:hover { color: #fff; border-color: rgba(99, 102, 241, 0.55); }
+.iv-tabs button.active { background: linear-gradient(135deg, #6366f1, #22d3ee); color: #fff; box-shadow: 0 5px 18px rgba(99, 102, 241, 0.4); }
+.iv-report { background: rgba(255, 255, 255, 0.045); border-color: rgba(255, 255, 255, 0.12); }
+.iv-report pre { color: #aab3c8; }
+/* 投递追踪（暗色） */
+.tr-stat { background: rgba(255, 255, 255, 0.05); border-color: rgba(255, 255, 255, 0.12); }
+.tr-stat b { color: #93c5fd; }
+.tr-actions select, .tr-inline input { background: rgba(255, 255, 255, 0.07); border-color: rgba(255, 255, 255, 0.12); color: #e8ecf5; }
+.tr-stat.warn { border-color: rgba(248, 113, 113, 0.45); background: rgba(248, 113, 113, 0.1); }
